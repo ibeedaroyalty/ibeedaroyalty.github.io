@@ -4,6 +4,7 @@ import Artist from "./components/Artist/Artist";
 import Artists from "./components/Artists/Artists";
 import Home from "./components/Home/Home";
 import { ArtistData } from "./data/ArtistData";
+import About from "./components/About/About";
 
 function App() {
   const [artistData, setArtistData] = useState(ArtistData);
@@ -14,6 +15,16 @@ function App() {
         <Route
           index
           element={<Home showMenu={showMenu} setShowMenu={setShowMenu} />}
+        />
+        <Route
+          exact
+          path="about"
+          element={
+            <About
+              showMenu={showMenu}
+              setShowMenu={setShowMenu}
+            />
+          }
         />
         <Route
           exact

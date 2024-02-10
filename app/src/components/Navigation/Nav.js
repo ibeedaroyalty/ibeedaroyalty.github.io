@@ -35,6 +35,13 @@ const Nav = (props) => {
             <NaviLink>Home</NaviLink>
           </Link>
           <Link
+            to="/about"
+            style={{ textDecoration: "none" }}
+            onClick={() => props.setShowMenu(false)}
+          >
+            <NaviLink>About</NaviLink>
+          </Link>
+          <Link
             to="/artists"
             style={{ textDecoration: "none" }}
             onClick={() => props.setShowMenu(false)}
