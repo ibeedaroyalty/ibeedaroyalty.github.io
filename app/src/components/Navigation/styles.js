@@ -91,13 +91,22 @@ const LogoIcon = styled.img`
 const NaviLink = styled.p`
   text-transform: uppercase;
   font-size: 2em;
-  text-decoration: none;
+  text-decoration: none !important;
   color: purple;
   margin-left: 4%;
 
   &:hover {
     color: gold;
   }
+`
+
+const DisabledNaviLink = styled.p`
+  text-transform: uppercase;
+  font-size: 2em;
+  text-decoration: none;
+  color: grey;
+  margin-left: 4%;
+  cursor: default;
 `
 
 const NavControl = styled.div`
@@ -119,6 +128,7 @@ export {
   NavigationContainer,
   NavigationOpen,
   NavigationClose,
+  DisabledNaviLink,
   NaviLink,
   LogoIcon,
   LogoContainer,

@@ -1,20 +1,16 @@
 import React from "react";
-
-// Components
-import Definition from "./Definition";
-import Nav from "../Navigation/Nav";
-import VideoIntro from "./VideoIntro";
-import {HomeStyles} from './styles'
+import Hero from "./HeroArea/Hero";
+import Nav from "./NavArea/Nav";
 
 
-function Home (props) {
-  return (
-    <HomeStyles.Container>
-      <Nav showMenu={props.showMenu} setShowMenu={props.setShowMenu}/>
-      {/* <VideoIntro/> */}
-      <Definition/>
-    </HomeStyles.Container>
-  );
+function Home() {
+    return (
+      <div>
+        Hello from Home
+        <Hero/>
+        <Nav/>
+      </div>
+    );
 }
 
-export default Home
+export default Home;
