@@ -1,38 +1,49 @@
 export const data = [
     {
-        name: "Artists"
+        name: "Artists",
+        acitve: false,
     },
     {
         name: "Services",
+        acitve: false,
         subItems: [
             {
-                name: "Studio"
+                name: "Studio",
+                acitve: false,
             },
             {
-                name: "Beats"
+                name: "Beats",
+                acitve: false,
             },
             {
-                name: "Video"
+                name: "Video",
+                acitve: false,
             },
         ]
     },
     {
-        name: "Merchandise"
+        name: "Merchandise",
+        acitve: false,
     },
     {
-        name: "Magazine"
+        name: "Magazine",
+        acitve: false,
     },
     {
-        name: "About"
+        name: "About",
+        acitve: false,
     },
     {
-        name: "The LAB"
+        name: "The LAB",
+        acitve: false,
     },
     {
-        name: "Artists"
+        name: "Artists",
+        acitve: false,
     },
     {
         name: "Events",
+        acitve: false,
         subItems: [
             {
                 name: "Coming Up"
@@ -43,6 +54,7 @@ export const data = [
         ]
     },
     {
-        name: "Memorials"
+        name: "Memorials",
+        acitve: false,
     },
 ]

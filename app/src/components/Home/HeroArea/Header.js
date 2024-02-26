@@ -1,12 +1,12 @@
 import React from "react";
 
 
-function CTA (props) {
+function Header (props) {
     return (
         <div>
-            Book Now!
+            iBêêDaRoyalty
         </div>
     );
 }
 
-export default CTA;
+export default Header;
