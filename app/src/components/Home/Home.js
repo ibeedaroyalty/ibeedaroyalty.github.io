@@ -1,15 +1,16 @@
 import React from "react";
 import Hero from "./HeroArea/Hero";
 import Nav from "./NavArea/Nav";
+import { HomePageContainer } from "./styles";
 
 
 function Home() {
     return (
-      <div>
+      <HomePageContainer>
         Hello from Home
         <Hero/>
         <Nav/>
-      </div>
+      </HomePageContainer>
     );
 }
 
