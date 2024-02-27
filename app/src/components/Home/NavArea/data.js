@@ -38,10 +38,6 @@ export const data = [
         acitve: false,
     },
     {
-        name: "Artists",
-        acitve: false,
-    },
-    {
         name: "Events",
         acitve: false,
         subItems: [

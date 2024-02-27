@@ -9,12 +9,14 @@ export const HomePageContainer = styled.div`
     background-image: url(${BackgroundImage});
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 `
 
 export const HeroImageOn = styled.div`
     width: 85vw;
     height: 60vh;
-    margin: 20px auto;
+    margin: 2px auto;
     background-image: url(${Hero});
     background-repeat: no-repeat;
     background-position:center;
@@ -24,6 +26,7 @@ export const HeroImageOn = styled.div`
     border: 15px inset white;
     border-bottom-color: gold;
     border-top-color: grey;
+    align-self: flex-start;
 `
 
 export const HeroImageOff = styled.div`
@@ -32,7 +35,11 @@ export const HeroImageOff = styled.div`
 
 export const NavContainer = styled.nav`
     width: 85vw;
-    height: 10vh;
+    height: 15vh;
     background-image: url(${Metal});
     margin: 0 auto;
+    align-self: baseline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 `

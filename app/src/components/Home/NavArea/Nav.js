@@ -3,15 +3,18 @@ import Button from "./Button";
 import Slider from "./Slider";
 import PowerButton from "./PowerButton";
 import { NavContainer } from "../styles";
+import { data } from "./data";
 
 
 function Nav (props) {
     return (
         <NavContainer>
-            Hello from Nav
             <PowerButton/>
-            <Button/>
-            <Slider/>
+            {
+                data.map(navItem => navItem.subItems ?
+                    <Slider navItem={navItem} />
+                    : <Button navItem={navItem}/>)
+            }
         </NavContainer>
     );
 }

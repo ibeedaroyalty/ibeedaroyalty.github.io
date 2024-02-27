@@ -4,7 +4,7 @@ import React from "react";
 function Button (props) {
     return (
         <div>
-            I'ma Nav button
+            {props.navItem.name}
         </div>
     );
 }

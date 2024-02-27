@@ -4,7 +4,7 @@ import React from "react";
 function Slider (props) {
     return (
         <div>
-            I am a Nav Slider
+            {props.navItem.name}
         </div>
     );
 }
