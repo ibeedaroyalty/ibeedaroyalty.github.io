@@ -1,11 +1,12 @@
 import React from "react";
+import { NavButtonOn } from "../styles";
 
 
 function Button (props) {
     return (
-        <div>
+        <NavButtonOn>
             {props.navItem.name}
-        </div>
+        </NavButtonOn>
     );
 }
 

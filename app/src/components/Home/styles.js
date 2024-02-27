@@ -43,3 +43,35 @@ export const NavContainer = styled.nav`
     justify-content: space-around;
     align-items: center;
 `
+
+export const PowerButtonOn = styled.button`
+    background-color: red;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+`
+
+export const PowerButtonOff = styled.button`
+    background-color: green;
+    border-radius: 50%;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+`
+export const NavButtonOn = styled.button`
+    background-color: orange;
+    border: 5px outset gold;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+`
