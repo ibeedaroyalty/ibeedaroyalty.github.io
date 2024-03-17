@@ -79,12 +79,12 @@ export const DefinitionStyles = {
 
 export const HomeStyles = {
   Container: styled.div`
-  background-image: url(${BackgroundImage});
-  width: 100vw;
-  height: 100vh;
-  overflow: scroll;
-  background-size: cover;
-  background-position: center;
+  // background-image: url(${BackgroundImage});
+  // width: 100vw;
+  // height: 100vh;
+  // overflow: scroll;
+  // background-size: cover;
+  // background-position: center;
 `
 }
 

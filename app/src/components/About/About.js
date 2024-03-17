@@ -10,12 +10,11 @@ import {HomeStyles} from './styles'
 function About (props) {
   return (
     <HomeStyles.Container>
-      <Nav 
-        showMenu={props.showMenu} 
-        setShowMenu={props.setShowMenu}
-      />
-      <VideoIntro/>
-      <Definition/>
+      Hello From About
+      <div>I am Hero</div>
+      <div>I am Message</div>
+      <div>I am Team</div>
+      <div>I am Locations</div>
     </HomeStyles.Container>
   );
 }
