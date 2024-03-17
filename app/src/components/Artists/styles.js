@@ -37,7 +37,6 @@ export const ArtistLinkStyles = {
 
 export const ArtistsStyles = {
   Container: styled.div`
-    background-image: url(${IBRImage});
     background-size: cover;
     background-position: center;
     height: 100vh;
