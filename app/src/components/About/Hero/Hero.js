@@ -5,11 +5,7 @@ import { HeroStyles } from "../styles";
 function Hero (props) {
     return (
         <HeroStyles.Container>
-            Welcome to iBDR!
-
-            <div>
-                <VideoIntro/>
-            </div>
+            <VideoIntro/>
         </HeroStyles.Container>
     );
 }

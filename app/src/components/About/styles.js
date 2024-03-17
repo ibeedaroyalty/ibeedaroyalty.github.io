@@ -1,7 +1,5 @@
 import styled, {keyframes} from "styled-components";
 
-import BackgroundImage from '../../assets/MainBackground.jpeg'
-
 const ColorTransition = keyframes`
   0% {
     color: gold;
@@ -22,22 +20,29 @@ const ColorTransition = keyframes`
 `
 export const HeroStyles = {
   Container: styled.section`
-    width: 100%;
-    background-color: black;
+    width: 100vw;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
 
     @media(min-width: 1024px){
-    
+      min-height: 100vh;
     }
   `,
   VideoContainer: styled.div`
-
-
+    width: 100%;
+    height: auto;
     @media(min-width: 1024px){
       
     }
   `,
   Video: styled.video`
-
+    width: 100%;
 
     @media(min-width: 1024px){
     
@@ -45,8 +50,8 @@ export const HeroStyles = {
   `
 };
 
-export const DefinitionStyles = {
-  MainContainer: styled.div`
+export const MessageStyles = {
+  MainContainer: styled.section`
     width: 100vw;
     min-height: 100vh;
     margin: 0 auto;
@@ -101,29 +106,32 @@ export const DefinitionStyles = {
   `,
 };
 
-export const HomeStyles = {
-  Container: styled.div`
-  // background-image: url(${BackgroundImage});
-  // width: 100vw;
-  // height: 100vh;
-  // overflow: scroll;
-  // background-size: cover;
-  // background-position: center;
-`
+export const TeamStyles = {
+  MainContainer: styled.section`
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  `
 }
 
-export const VideoStyles = {
-  Container: styled.div`
-  width: 100%;
+export const LocationStyles = {
+  MainContainer: styled.section`
+  width: 100vw;
+  min-height: 100vh;
   margin: 0 auto;
-  background-color: black;
-
-  @media(min-width: 1024px){
-    width: 100vw;
-  }
-`,
-  Video: styled.video`
-    width: 100%;
-    background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
   `
 }

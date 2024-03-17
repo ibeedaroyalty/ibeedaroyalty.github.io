@@ -1,10 +1,11 @@
 import React from "react";
+import { TeamStyles } from "../styles";
 
 function Team (props) {
     return (
-        <div>
-            Hello from Team
-        </div>
+        <TeamStyles.MainContainer>
+            Meet the Team
+        </TeamStyles.MainContainer>
     );
 }
 

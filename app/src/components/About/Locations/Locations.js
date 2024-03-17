@@ -1,10 +1,11 @@
 import React from "react";
+import { LocationStyles } from "../styles";
 
 function Locations (props) {
     return (
-        <div>
+        <LocationStyles.MainContainer>
             Hello from Locations
-        </div>
+        </LocationStyles.MainContainer>
     );
 }
 

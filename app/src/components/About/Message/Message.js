@@ -1,9 +1,10 @@
 import React from "react";
+import Definition from "./Definition";
 
 function Message (props) {
     return (
         <div>
-            Hello from Message
+            <Definition/>
         </div>
     );
 }
