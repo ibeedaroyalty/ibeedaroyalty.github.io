@@ -12,7 +12,6 @@ import {
   NavOpen,
 } from "./styles";
 
-import '../../App.css'
 import Logo from '../../assets/logo.png'
 import ContactBar from "./ContactBar";
 

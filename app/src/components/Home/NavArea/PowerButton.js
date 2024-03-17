@@ -1,16 +1,18 @@
 import React from "react";
-import { PowerButtonOn, PowerButtonOff } from "../styles";
+import { PowerButtonOff, PowerButtonOn } from "../styles";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPowerOff } from "@fortawesome/free-solid-svg-icons";
 
 
-function PowerButton (props) {
+function NavPowerButton (props) {
     return (
-        <PowerButtonOn>
+        <PowerButtonOff disabled>
             <FontAwesomeIcon icon={ faPowerOff} />
-        </PowerButtonOn>
+        </PowerButtonOff>
+        // <PowerButton>On</PowerButton>
+// <PowerButton disabled>Off</PowerButton>
     );
 
 }
 
-export default PowerButton;
+export default NavPowerButton;

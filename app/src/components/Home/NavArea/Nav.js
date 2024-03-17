@@ -1,20 +1,14 @@
 import React from "react";
-import Button from "./Button";
-import Slider from "./Slider";
 import PowerButton from "./PowerButton";
 import { NavContainer } from "../styles";
-import { data } from "./data";
+import NavButtons from "./NavButtons";
 
 
 function Nav (props) {
     return (
         <NavContainer>
             <PowerButton/>
-            {
-                data.map(navItem => navItem.subItems ?
-                    <Slider navItem={navItem} />
-                    : <Button navItem={navItem}/>)
-            }
+            <NavButtons/>
         </NavContainer>
     );
 }

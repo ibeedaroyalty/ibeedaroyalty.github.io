@@ -1,11 +1,12 @@
 import React from "react";
+import { Title } from "../styles";
 
 
 function Header (props) {
     return (
-        <div>
+        <Title>
             iBêêDaRoyalty
-        </div>
+        </Title>
     );
 }
 

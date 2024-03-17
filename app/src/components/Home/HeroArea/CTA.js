@@ -1,11 +1,12 @@
 import React from "react";
+import { BookNow } from "../styles";
 
 
 function CTA (props) {
     return (
-        <div>
-            Book Now!
-        </div>
+            <BookNow>
+                Book Now!
+            </BookNow>
     );
 }
 

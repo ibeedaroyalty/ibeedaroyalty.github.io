@@ -7,7 +7,6 @@ import { HomePageContainer } from "./styles";
 function Home() {
     return (
       <HomePageContainer>
-        Hello from Home
         <Hero/>
         <Nav/>
       </HomePageContainer>
