@@ -1,10 +1,16 @@
 import React from "react";
+import VideoIntro from "./VideoIntro";
+import { HeroStyles } from "../styles";
 
 function Hero (props) {
     return (
-        <div>
-            Hello from Hero
-        </div>
+        <HeroStyles.Container>
+            Welcome to iBDR!
+
+            <div>
+                <VideoIntro/>
+            </div>
+        </HeroStyles.Container>
     );
 }
 

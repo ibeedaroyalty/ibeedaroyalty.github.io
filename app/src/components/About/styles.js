@@ -20,6 +20,30 @@ const ColorTransition = keyframes`
     color: gold;
   }
 `
+export const HeroStyles = {
+  Container: styled.section`
+    width: 100%;
+    background-color: black;
+
+    @media(min-width: 1024px){
+    
+    }
+  `,
+  VideoContainer: styled.div`
+
+
+    @media(min-width: 1024px){
+      
+    }
+  `,
+  Video: styled.video`
+
+
+    @media(min-width: 1024px){
+    
+    }
+  `
+};
 
 export const DefinitionStyles = {
   MainContainer: styled.div`

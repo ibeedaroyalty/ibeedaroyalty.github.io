@@ -3,7 +3,7 @@ import React from "react";
 // Components
 import Definition from "./Definition";
 import Nav from "../Navigation/Nav";
-import VideoIntro from "./VideoIntro";
+import VideoIntro from "./Hero/VideoIntro";
 import {HomeStyles} from './styles'
 import Hero from "./Hero/Hero";
 import Message from "./Message/Message";
