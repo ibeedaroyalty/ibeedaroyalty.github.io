@@ -1,12 +1,14 @@
 import React from "react";
+import BeatBoard from "./BeatBoard/BeatBoard";
+import BeatMaker from "./BeatMaker/BeatMaker";
 
 
 function Beats (props) {
     return (
         <div>
-        Hello From Beats
-        <div>I am the beat maker</div>
-        <div>I am their beats</div>
+            Hello From Beats
+            <BeatMaker/>
+            <BeatBoard/>
         </div>
     );
 }
