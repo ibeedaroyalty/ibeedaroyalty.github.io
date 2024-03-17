@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Metal from '../../assets/metal4.jpeg'
-import Hero from '../../assets/HomeHero.PNG'
+import Metal from '../../assets/General/metal4.jpeg'
+import Hero from '../../assets/Home/HomeHero.PNG'
 
 // Shared button styles
 const Button = styled.button`

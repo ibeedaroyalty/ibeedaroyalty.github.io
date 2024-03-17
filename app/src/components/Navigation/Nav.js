@@ -12,7 +12,7 @@ import {
   NavOpen,
 } from "./styles";
 
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/General/logo.png'
 import ContactBar from "./ContactBar";
 
 const Nav = (props) => {
