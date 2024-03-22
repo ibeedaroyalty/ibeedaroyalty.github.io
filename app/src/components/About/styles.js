@@ -83,9 +83,10 @@ export const MessageStyles = {
     font-size: 3.5em;
     animation: ${ColorTransition} 4s infinite linear;
     text-align: center;
+    font-weight: bold;
 
     @media(min-width: 1024px){
-      font-size: 4em;
+      font-size: 50vw;
     }
   `,
 

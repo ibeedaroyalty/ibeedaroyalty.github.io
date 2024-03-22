@@ -3,24 +3,24 @@ export const data = [
         name: "Artists",
         acitve: false,
     },
-    {
-        name: "Services",
-        acitve: false,
-        subItems: [
-            {
-                name: "Studio",
-                acitve: false,
-            },
-            {
-                name: "Beats",
-                acitve: false,
-            },
-            {
-                name: "Video",
-                acitve: false,
-            },
-        ]
-    },
+    // {
+    //     name: "Services",
+    //     acitve: false,
+    //     subItems: [
+    //         {
+    //             name: "Studio",
+    //             acitve: false,
+    //         },
+    //         {
+    //             name: "Beats",
+    //             acitve: false,
+    //         },
+    //         {
+    //             name: "Video",
+    //             acitve: false,
+    //         },
+    //     ]
+    // },
     {
         name: "Merchandise",
         acitve: false,
@@ -37,18 +37,18 @@ export const data = [
         name: "The LAB",
         acitve: false,
     },
-    {
-        name: "Events",
-        acitve: false,
-        subItems: [
-            {
-                name: "Coming Up"
-            },
-            {
-                name: "Photos"
-            },
-        ]
-    },
+    // {
+    //     name: "Events",
+    //     acitve: false,
+    //     subItems: [
+    //         {
+    //             name: "Coming Up"
+    //         },
+    //         {
+    //             name: "Photos"
+    //         },
+    //     ]
+    // },
     {
         name: "Memorials",
         acitve: false,

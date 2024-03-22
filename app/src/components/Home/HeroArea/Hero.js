@@ -1,17 +1,17 @@
 import React from "react";
 import CTA from "./CTA";
 import Header from "./Header";
-import { HeroImageOff, HeroImageOn } from "../styles";
+import { HeroImage } from "../styles";
 import SocialMediaBar from "./SocialMediaBar";
 
 
 function Hero (props) {
     return (
-        <HeroImageOn>
+        <HeroImage isOn={true} >
             <Header/>
-            <CTA/>
-            <SocialMediaBar/>
-        </HeroImageOn>
+            {/* <CTA/> */}
+            {/* <SocialMediaBar/> */}
+        </HeroImage>
     );
 }
 

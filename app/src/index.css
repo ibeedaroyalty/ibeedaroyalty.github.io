@@ -57,6 +57,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-image: url('./assets/General/MainBG.jpg');
 	background-position: center;
+	background-attachment: fixed;
 }
 
 code {

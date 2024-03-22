@@ -1,16 +1,21 @@
 import React from "react";
 import Hero from "./HeroArea/Hero";
 import Nav from "./NavArea/Nav";
-import { HomePageContainer } from "./styles";
+import { MainContainer } from "./styles";
+import CTA from "./HeroArea/CTA";
+import SocialMediaBar from "./HeroArea/SocialMediaBar";
 
 
 function Home() {
     return (
-      <HomePageContainer>
+      <MainContainer>
         <Hero/>
+        {/* <SocialMediaBar/> */}
+        <CTA/>
         <Nav/>
-      </HomePageContainer>
+      </MainContainer>
     );
 }
 
 export default Home;
+
