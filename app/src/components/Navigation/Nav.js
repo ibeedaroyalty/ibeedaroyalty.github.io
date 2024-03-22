@@ -12,8 +12,7 @@ import {
   NavOpen,
 } from "./styles";
 
-import '../../App.css'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/General/logo.png'
 import ContactBar from "./ContactBar";
 
 const Nav = (props) => {
@@ -33,6 +32,13 @@ const Nav = (props) => {
             onClick={() => props.setShowMenu(false)}
           >
             <NaviLink>Home</NaviLink>
+          </Link>
+          <Link
+            to="/about"
+            style={{ textDecoration: "none" }}
+            onClick={() => props.setShowMenu(false)}
+          >
+            <NaviLink>About</NaviLink>
           </Link>
           <Link
             to="/artists"

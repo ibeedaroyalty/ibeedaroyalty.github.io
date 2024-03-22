@@ -1,20 +1,21 @@
 import React from "react";
+import Hero from "./HeroArea/Hero";
+import Nav from "./NavArea/Nav";
+import { MainContainer } from "./styles";
+import CTA from "./HeroArea/CTA";
+import SocialMediaBar from "./HeroArea/SocialMediaBar";
 
-// Components
-import Definition from "./Definition";
-import Nav from "../Navigation/Nav";
-import VideoIntro from "./VideoIntro";
-import {HomeStyles} from './styles'
 
-
-function Home (props) {
-  return (
-    <HomeStyles.Container>
-      <Nav showMenu={props.showMenu} setShowMenu={props.setShowMenu}/>
-      <VideoIntro/>
-      <Definition/>
-    </HomeStyles.Container>
-  );
+function Home() {
+    return (
+      <MainContainer>
+        <Hero/>
+        {/* <SocialMediaBar/> */}
+        <CTA/>
+        <Nav/>
+      </MainContainer>
+    );
 }
 
-export default Home
+export default Home;
+
